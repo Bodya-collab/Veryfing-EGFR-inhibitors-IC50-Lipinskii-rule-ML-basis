@@ -22,7 +22,20 @@ Although my university curriculum covers *In Silico Methods* in future semesters
 I visualized the distribution of active (green) vs. inactive (red) molecules based on Molecular Weight and LogP.
 * **Observation:** A significant cluster of active EGFR inhibitors falls within the "drug-like" region defined by **Lipinski's Rule of 5** (MW < 500, LogP < 5), suggesting good oral bioavailability potential.
 
-![Chemical Space Plot]<img width="833" height="701" alt="Activity" src="https://github.com/user-attachments/assets/aa4a7a47-8e1b-4a66-b469-61d79d1cf871" />
+<img width="833" height="701" alt="Activity" src="https://github.com/user-attachments/assets/aa4a7a47-8e1b-4a66-b469-61d79d1cf871" />
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
