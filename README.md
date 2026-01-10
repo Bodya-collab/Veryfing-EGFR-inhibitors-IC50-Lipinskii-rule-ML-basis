@@ -46,4 +46,28 @@ I visualized the distribution of active (green) vs. inactive (red) molecules bas
 **Confusion Matrix Analysis:**
 The model shows reasonable predictive power but struggles with class imbalance (significantly more inactive compounds than active ones in the dataset).
 
-![Confusion Matrix](IMAGES/confusion_matrix.png)
+<img width="505" height="470" alt="загружено" src="https://github.com/user-attachments/assets/13a1491f-258d-4b84-a546-4024730351c9" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## 👤 Author
+**Bohdan Lazepnikov **
+* Student at Jagiellonian University (Faculty of Chemistry).
+* Interests: Bioanalysis, Computational Chemistry, Drug Design.
+
