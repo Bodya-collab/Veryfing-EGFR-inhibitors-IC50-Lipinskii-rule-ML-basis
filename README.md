@@ -62,8 +62,26 @@ The model shows reasonable predictive power but struggles with class imbalance (
 
 
 
+###3.Optimalization process 
+* **Figure 3: Multi-Parameter Optimization (MPO) Strategy To prioritize candidates with the highest clinical potential, I plotted Potency (IC50) against Drug-likeness (QED Score).
+
+* **Y-Axis (Potency): IC50 values on a logarithmic scale (inverted). Points higher up represent more potent compounds.
+* **X-Axis (Quality): QED score (0 to 1). Points further to the right represent molecules with better physicochemical properties (solubility, permeability).
+
+* **Key Finding: The plot reveals Top-Right Quadrant, containing compounds that are both highly potent (IC50 < 1000 nM) and highly drug-like (QED > 0.6). While some compounds showed extreme potency at Top-Left, their low QED scores suggest potential toxicity or poor absorption, making them unsuitable for drug development. The analysis successfully filtered the dataset down to high-quality lead candidates (e.g., CHEMBL52765) can be synthesized for in vitro studies. 
 
 
+<img width="833" height="701" alt="Activity" src="https://github.com/user-attachments/assets/c480da14-6596-48d0-bb3b-c272e4a0f41d" />
+
+
+
+
+
+
+
+
+
+                                                                    Figure 3 
 
 
 ## 👤 Author
