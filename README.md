@@ -71,7 +71,7 @@ The model shows reasonable predictive power but struggles with class imbalance (
 * **Key Finding: The plot reveals Top-Right Quadrant, containing compounds that are both highly potent (IC50 < 1000 nM) and highly drug-like (QED > 0.6). While some compounds showed extreme potency at Top-Left, their low QED scores suggest potential toxicity or poor absorption, making them unsuitable for drug development. The analysis successfully filtered the dataset down to high-quality lead candidates (e.g., CHEMBL52765) can be synthesized for in vitro studies. 
 
 
-<img width="833" height="701" alt="Activity" src="https://github.com/user-attachments/assets/c480da14-6596-48d0-bb3b-c272e4a0f41d" />
+<img width="1125" height="547" alt="Optimalization QED score" src="https://github.com/user-attachments/assets/ef8bb7d5-a6d5-45eb-bb12-afeb4576c684" />
 
 
 
