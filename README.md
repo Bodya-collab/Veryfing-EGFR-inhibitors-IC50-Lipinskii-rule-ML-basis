@@ -81,8 +81,33 @@ The model shows reasonable predictive power but struggles with class imbalance (
 
 
 
-                                                                    Figure 3
+                                                                   
 
+
+
+## 4.Comparing potencial with true drug 
+* To validate the potential mechanism of action for the identified lead candidate (CHEMBL52765), I analyzed the co-crystallized structure of EGFR with the reference inhibitor Erlotinib (PDB ID: 1M17). SWISSDOC simulation had showed only physics state, where 3 molekules of CHEMBL52765 are connected to different places in 1M17 including target place. It shows that CHEMBL52765 also complete inhibition in the same place as Erlotinib.
+
+* **Figure 4.** Binding Mode Analysis (Validation Step)
+* <img width="820" height="456" alt="image" src="https://github.com/user-attachments/assets/20f7664b-de84-43b6-99cd-815cf75044df" />
+
+
+
+
+
+
+
+
+
+
+
+
+## 5.Conclusion 
+This project successfully demonstrates a comprehensive computational drug discovery workflow, bridging the gap between raw biological data and actionable chemical insights. By integrating Machine Learning (Random Forest) with structural analysis, I achieved the following:
+* Effective screening
+* Lead compound optimization
+* Structual Validation
+This self-initiated study allowed me to master key Cheminformatics tools (RDKit) and Data Science libraries independently, proving that in silico methods can significantly accelerate the early stages of pharmaceutical research.
 
 ## 👤 Author
 **Bohdan Lazepnikov **
