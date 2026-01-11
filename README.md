@@ -22,7 +22,7 @@ Although my university curriculum covers *In Silico Methods* in future semesters
 I visualized the distribution of active (green) vs. inactive (red) molecules based on Molecular Weight and LogP.
 * **Observation:** A significant cluster of active EGFR inhibitors falls within the "drug-like" region defined by **Lipinski's Rule of 5** (MW < 500, LogP < 5), suggesting good oral bioavailability potential.
 
-<img width="1515" height="650" alt="image" src="https://github.com/user-attachments/assets/9d476643-3d0f-429f-a4f5-13ba972b9d43" />
+<img width="781" height="660" alt="image" src="https://github.com/user-attachments/assets/a288142c-4b72-4d4c-a071-232363c25848" />
 
 
 
@@ -104,7 +104,7 @@ I deployed the DiffDock inference pipeline on Google Colab (T4 GPU) to blindly p
 
 * **Visual Result:** The model successfully positioned the ligand deep within the ATP-binding pocket. The predicted pose (red/grey sticks) shows excellent steric fit within the protein ribbons.
 
-<img width="820" height="456" alt="image" src="https://github.com/user-attachments/assets/20f7664b-de84-43b6-99cd-815cf75044df" />
+<img width="1517" height="648" alt="image" src="https://github.com/user-attachments/assets/eba5b435-fa01-4ab3-b3f9-9b9f13858e0b" />
 
 
 
