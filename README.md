@@ -22,7 +22,7 @@ Although my university curriculum covers *In Silico Methods* in future semesters
 I visualized the distribution of active (green) vs. inactive (red) molecules based on Molecular Weight and LogP.
 * **Observation:** A significant cluster of active EGFR inhibitors falls within the "drug-like" region defined by **Lipinski's Rule of 5** (MW < 500, LogP < 5), suggesting good oral bioavailability potential.
 
-<img width="833" height="701" alt="Activity" src="https://github.com/user-attachments/assets/aa4a7a47-8e1b-4a66-b469-61d79d1cf871" />
+<img width="1515" height="650" alt="image" src="https://github.com/user-attachments/assets/9d476643-3d0f-429f-a4f5-13ba972b9d43" />
 
 
 
@@ -96,18 +96,44 @@ The model shows reasonable predictive power but struggles with class imbalance (
 
 
 
+## 5. Advanced Validation: Generative AI & Cross-Scoring
+To rigorously validate the lead candidate beyond traditional docking, I implemented a **State-of-the-Art Deep Learning pipeline** using **DiffDock** (Diffusion Generative Model) and cross-validated the results with **GNINA** (CNN-based Scoring).
+
+### Method 1: Generative Inference (DiffDock)
+I deployed the DiffDock inference pipeline on Google Colab (T4 GPU) to blindly predict the binding conformation of `CHEMBL52765` within the EGFR pocket (PDB: 1M17).
+
+* **Visual Result:** The model successfully positioned the ligand deep within the ATP-binding pocket. The predicted pose (red/grey sticks) shows excellent steric fit within the protein ribbons.
+
+<img width="820" height="456" alt="image" src="https://github.com/user-attachments/assets/20f7664b-de84-43b6-99cd-815cf75044df" />
 
 
 
 
 
 
-## 5.Conclusion 
+
+
+
+### Method 2: Confidence Correlation Analysis (Validation)
+To ensure the reliability of the AI predictions, I correlated **DiffDock's Confidence Score** with **GNINA's Binding Affinity** (physics-based scoring).
+
+* **Statistical Finding:** There is a **strong correlation (r = -0.734)** between the model's confidence and the calculated binding energy.
+* **Interpretation:** As the AI becomes more confident in a pose (X-axis increases), the physical binding energy becomes more favorable (Y-axis decreases). This convergence of **Generative AI** and **Biophysics** strongly supports the validity of the identified lead candidate.
+
+ <img width="752" height="577" alt="image" src="https://github.com/user-attachments/assets/99b070dd-fb47-4a19-9485-3312e3cdc0be" />
+
+
+
+
+
+
+## 6.Conclusion 
 This project successfully demonstrates a comprehensive computational drug discovery workflow, bridging the gap between raw biological data and actionable chemical insights. By integrating Machine Learning (Random Forest) with structural analysis, I achieved the following:
 * Effective screening
 * Lead compound optimization
 * Structual Validation
-This self-initiated study allowed me to master key Cheminformatics tools (RDKit) and Data Science libraries independently, proving that in silico methods can significantly accelerate the early stages of pharmaceutical research.
+The next step is using AI tool in order to compare AI prediction with SWISSDOC prediction and prove that this compound fits as good as Elotinib. We can see strong corelation in both methods which proves theory.
+This self-initiated study allowed me to master key Cheminformatics tools (RDKit), Molecular docking tools including as standard SWISSDOC and PYMOL as an AI prediction systems.  and Data Science libraries independently, proving that in silico methods can significantly accelerate the early stages of pharmaceutical research.
 
 ## 👤 Author
 **Bohdan Lazepnikov **
